@@ -6,8 +6,8 @@ import google.generativeai as genai
 from pptx import Presentation
 
 # Tokenlarni sistema o'zgaruvchilaridan olamiz (Xavfsizlik uchun)
-TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+TELEGRAM_TOKEN = os.getenv("8709400144:AAHvCotXunyUlAhFbJ-oCphoe4R4DsOPN78")
+GEMINI_API_KEY = os.getenv("AIzaSyA5ds4Xg4M6cj_rscAz8SeZjKaGFHIusPE")
 
 genai.configure(api_key=GEMINI_API_KEY)
 model = genai.GenerativeModel('gemini-pro')
